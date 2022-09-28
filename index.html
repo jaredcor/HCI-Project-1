@@ -7,7 +7,7 @@
 
 <body style="margin: auto 150px">
     <h1>HCI Project 1 Report</h1>
-    <a href="https://github.com/jaredcor/P1JaredCortez">Project Repository</a>
+    <a href="https://github.com/jaredcor/P1JaredCortez">GitHub project repository</a>
 
     <h2>To get a C:</h2>
     <ul>
@@ -21,20 +21,28 @@
     <p>Issues with the current design:</p>
     <ul>
         <li>Maintenance buttons clutter up normal use case</li>
-        <li>Reasoning: Having more buttons for humans to process makes normal use case take longer</li>
+        <ul>
+            <li>Reasoning: Having more buttons for humans to process makes normal use case take longer</li>
+        </ul>
         <li>Emergency call button gives feedback from a different button</li>
-        <li>Reasoning: Interface should give feedback from the same button</li>
+        <ul>
+            <li>Reasoning: Interface should give feedback from the same button</li>
+        </ul>
         <li>Excess of emergency buttons</li>
-        <li>Reasoning: Having two buttons for separate emergencies creates more stress in an already stressful situation
-        </li>
+        <ul>
+            <li>Reasoning: Having two buttons for separate emergencies creates more stress in an already stressful
+                situation</li>
+        </ul>
         <li>Cannot unselect a floor</li>
-        <li>Reasoning: Wastes time going to wrongly selected floor</li>
+        <ul>
+            <li>Reasoning: Wastes time going to wrongly selected floor</li>
+        </ul>
     </ul>
     <h2>To get a B:</h2>
     <p>Common uses:</p>
     <ul>
         <li>Person walks in, presses 1 or 2</li>
-        <li>Person presses "Close Door" if impatient, or pressed "Open Door" if they see a person trying to catch the
+        <li>Person presses "Close Door" if impatient, or presses "Open Door" if they see a person trying to catch the
             elevator</li>
     </ul>
     <p>Rarer uses:</p>
@@ -42,7 +50,68 @@
         <li>Elevator is stuck, person presses alarm or calls for help</li>
         <li>Maintenance locks floors</li>
     </ul>
-
+    <p>Common sequence of actions:</p>
+    <ol>
+        <li>Person presses desired floor button</li>
+        <li>Person presses "Close Door" button</li>
+    </ol>
+    <p>How the interface supports the user to figure it out:</p>
+    <ul>
+        <li>Clear floor labels connected to physical button</li>
+        <li>Ground/main floor signified with star</li>
+        <li>Clear, simple symbols to signify other buttons</li>
+        <ul>
+            <li>Close/open door symbols, alarm symbol, phone symbol</li>
+        </ul>
+        <li>Helpful English words to describe button if symbol does not suffice</li>
+        <ul>
+            <li>"CLOSE DOOR", "OPEN DOOR", "ALARM", and "HELP" written on physical buttons, </li>
+        </ul>
+        <li>Emergency buttons have different button outlines</li>
+        <ul>
+            <li>Call for help button has yellow outline, signifies moderate concern</li>
+            <li>Alarm button has red outline, signifies extreme concern</li>
+        </ul>
+    </ul>
+    <p>How the interface provides feedback:</p>
+    <ul>
+        <li>Button lights up blue when a button is selected until selected action is completed</li>
+    </ul>
+    <p>Common mistakes that can be made:</p>
+    <ul>
+        <li>Pressing the wrong floor</li>
+        <li>Pressing the wrong emergency button</li>
+    </ul>
+    <p>Suggested improvements:</p>
+    <img src="P1JaredCortez.png" width="560" height="380">
+    <ul>
+        <li>Switching side of floor buttons with floor lockout buttons to line up with alarm button</li>
+        <ul>
+            <li>This would make it easier to close door after selecting floor as you wouldn't have to cross over
+                interface</li>
+        </ul>
+        <li>Having only one emergency button that sounds alarm and calls for help</li>
+        <ul>
+            <li>This would clear up any potential confusion and save time in a state of emergency</li>
+        </ul>
+    </ul>
+    <h2>To get an A:</h2>
+    <ul>
+        <li>Implemented sketch using Processing</li>
+        <a href="P1_Jared_Cortez.zip">Processing zip</a>
+        <li>Implemented interactive features</li>
+        <ul>
+            <li>Pressable buttons</li>
+            <li>Floor buttons and alarm button can be selected and unselected if necessary</li>
+        </ul>
+        <li>Provides user feedback</li>
+        <ul>
+            <li>Floor buttons light up blue when selected</li>
+            <li>Alarm button flashes red when pressed</li>
+            <li>Close and Open Door buttons turn off after a couple of seconds to allow time for a physical door to
+                close</li>
+        </ul>
+    </ul>
 </body>
 
 </html>
