@@ -1,1 +1,1 @@
-# HCI-Project-1
+[GitHub Pages page for project](https://jaredcor.github.io/P1JaredCortez/)
