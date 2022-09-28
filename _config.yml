@@ -1,1 +1,6 @@
+title: HCI Project 1 Report
+url: "https://jaredcor.github.io"
+
 theme: minima
+plugins:
+- jekyll-feed
