@@ -1,6 +1,8 @@
 title: HCI Project 1 Report
+
+baseurl: "/P1JaredCortez"
 url: "https://jaredcor.github.io"
 
 theme: minima
 plugins:
-- jekyll-feed
+  - jekyll-feed
